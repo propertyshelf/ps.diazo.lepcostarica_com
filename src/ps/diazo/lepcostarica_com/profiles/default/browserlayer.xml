@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+      name="ps.diazo.lepcostarica_com"
+      interface="ps.diazo.lepcostarica_com.interfaces.IPsDiazoLepcostaricaComLayer"
+      />
+</layers>
