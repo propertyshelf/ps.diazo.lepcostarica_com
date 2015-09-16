@@ -119,7 +119,6 @@ function responsive_carousel(){
     $('#fullscreen-slider .carousel').each(function( index ) {
         my_img=$(this).find('.carousel-image img:visible').last();
         height = my_img.height();
-        
         $(this).height(my_img.height());
     });
 }
@@ -199,7 +198,6 @@ function listingbar_next_back_button(){
 }
 
 $(document).ready(function () {
-   
     if($('.subsection-latest-listings-1').length>0 && $('.template-zope-interface-interface-listing-detail').length===0){
         pimp_startpage();
     }
@@ -225,7 +223,6 @@ $(document).ready(function () {
     if($('.portletQuickSearch').length>0){
         clickshow_option();
     }
-   
     //move listing detail gallery to right portlet
     if($('.listing.detail').length>0){
         
@@ -241,7 +238,7 @@ $(document).ready(function () {
         portlet();
     }
     if($('.carousel').length>0){
-        $('#portal-logo').css("position","absolute");
+        $('#portal-logo').addClass("has_carousel");
     }
     if($('#fullscreen-slider .carousel').length>0){
         responsive_carousel();
