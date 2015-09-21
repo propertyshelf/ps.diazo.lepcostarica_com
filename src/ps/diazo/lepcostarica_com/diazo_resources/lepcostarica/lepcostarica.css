@@ -1,5 +1,20 @@
+body .listing-summary figure .status_box.sale.Sold, 
+body .listing-summary figure .status_box.rent.Sold, 
+body .pp_content_container .pp_content .status_box.Sold {
+    background-color: #ee0f10;
+}
 #portal-logo.has_carousel {
     position: absolute;
+}
+body #content-core .tileItem.small-column img.tileImage,
+body #content .tileItem.small-column img.tileImage{
+    float:right;
+}
+#content .newsImageContainer img.newsImage {
+    display: none;
+}
+#content-core .newsImageContainer{
+    display: none;
 }
 /*Transition Banner*/
 body #fullscreen-slider .carousel-banners .carousel-text a.carousel-title {
@@ -84,7 +99,7 @@ body .img_float_left {
   background-color: #ffa500 !important;
 }
 .template-listing-detail .status_box.sale.Sold{
-  background-color: #ef4034 !important;
+  background-color: #EE0F10 !important;
     }
 .portletWrapper .portletFilterSearch .portletHeader, 
 body dl.portlet dt, body div.portletAssignments div.portletHeader{
@@ -175,7 +190,7 @@ body #footer-wrapper #doormat-container p.footer_button a {
     width:auto;
 }
 #content div.listingBar span.active,#content div.listingBar span.active:hover{
-    background-color: #4372f3 !important;
+    background-color: #4372F4 !important;
     border-width: 0 !important;
     box-shadow: 0 1px 1px rgba(1, 1, 1, 0.25);
     color: #ffffff !important;
@@ -184,7 +199,7 @@ body #footer-wrapper #doormat-container p.footer_button a {
     padding: 7px 15px !important;
 }
 #content .listingBar span.active span,#content .listingBar span.active span:hover{
-    background-color: #4372f3 !important;   
+    background-color: #4372F4 !important;   
     color: #ffffff !important;
 }
 #content div.listingBar .next ,
@@ -248,10 +263,10 @@ body #footer-wrapper #doormat-container p.footer_button a {
     text-transform: capitalize;
 }
 .listing-summary figure .status_box.rent{
-    background-color: #069731;   
+    background-color: #0B9A31;   
 }
 .listing-summary figure .status_box.sale{
-    background-color: #4372f3;   
+    background-color: #4372F4;   
 }
 .listing-summary figure .status_box.sold{
     background-color: #e30505;   
@@ -308,7 +323,7 @@ div.pp_default .pp_content_container .pp_details{
     float:left;   
 }
 .listing_controls .more_details{
-    background-color:#4372f3;
+    background-color:#4372F4;
     bottom: 18px;
     color: #ffffff;
     line-height: 32px;
@@ -335,7 +350,7 @@ div.pp_default .pp_content_container .pp_details{
     padding: 0 5px;
 }
 .pp_content_container .pp_content .status_box{
-    background-color: #4372f3;
+    background-color: #4372F4;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -409,7 +424,7 @@ div.pp_default .pp_content_container .pp_details{
     margin: 0;  
 }
 #fullbgnav{
-    background:#4372f3;
+    background:#4372F4;
     position: relative;
 } 
 #fullbgnav #navibar .nav li.active,
@@ -597,7 +612,7 @@ body .documentFirstHeading{
     min-height: 250px;
 }
 #footer-wrapper #doormat-container .column-3 p.footer_button{
-    background-color:#4372f3;   
+    background-color:#4372F4;   
     color:#ffffff;
     line-height: 34px;
     padding-left: 6px;
@@ -625,7 +640,7 @@ div.listingBar {
     color:#000000 !important;
 }
 #content div.listingBar a:hover{
-    background-color: #4372f3 !important;
+    background-color: #4372F4 !important;
 }
 .background-green{   
     background-color: #00a15f;
@@ -790,7 +805,7 @@ table.listing tr.odd th{
     background-color:#00a15f;
 }
 .red-bg-status{
-    background-color:#ef4034;
+    background-color:#EE0F10;
 }
 .collection-item{
     position:relative;   
@@ -830,7 +845,7 @@ table.listing tr.odd th{
     text-align:center;
 }
 .agent-contact-link{
-    background: none repeat scroll 0 0 #4372f3;
+    background: none repeat scroll 0 0 #4372F4;
     line-height: 34px;
     text-align: center;
     width: 270px;   
