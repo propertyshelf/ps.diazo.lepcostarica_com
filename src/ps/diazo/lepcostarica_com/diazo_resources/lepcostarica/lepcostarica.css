@@ -1,3 +1,13 @@
+body .site-slogan {
+    overflow: auto;
+    position: relative;
+}
+body .site-slogan .logo{
+    float: left;
+}
+body .site-slogan .slogan{
+    float: left;
+}
 body .listing-summary figure .status_box.sale.Sold, 
 body .listing-summary figure .status_box.rent.Sold, 
 body .pp_content_container .pp_content .status_box.Sold {

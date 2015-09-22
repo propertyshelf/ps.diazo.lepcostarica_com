@@ -5,14 +5,113 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xi="http://www.w3.org/2001/XInclude"> 
     
+    <rules css:if-not-content="#portal-column-one">
+        <rules css:if-not-content="#portal-column-two">
+            <replace
+    			css:theme-children=".no-portlet #portal-column-content"
+    			css:content-children="#portal-column-content"
+            />
+            <drop
+                css:theme=".portlet-both"
+            />
+            <drop
+                css:theme=".portlet-left"
+            />
+            <drop
+                css:theme=".portlet-right"
+            />
+        </rules>
+    </rules>
+    
+    <rules css:if-content="#portal-column-one">
+        <rules css:if-not-content="#portal-column-two">
+            <replace
+        		css:theme-children=".portlet-left #portal-column-content"
+    			css:content-children="#portal-column-content"
+            />
+            <replace
+            	css:theme=".portlet-left #portal-column-one"
+    			css:content="#portal-column-one"
+            />
+            <drop
+                css:theme=".portlet-both"
+            />
+            <drop
+                css:theme=".no-portlet"
+            />
+            <drop
+                css:theme=".portlet-right"
+            />
+        </rules>
+    </rules> 
+
+    <rules css:if-content="#portal-column-two">
+        <rules css:if-not-content="#portal-column-one">
+            <replace
+            	css:theme-children=".portlet-right #portal-column-content"
+    			css:content-children="#portal-column-content"
+            />
+            <replace
+            	css:theme=".portlet-right #portal-column-two"
+    			css:content="#portal-column-two"
+            />
+            <drop
+                css:theme=".portlet-both"
+            />
+            <drop
+                css:theme=".no-portlet"
+            />
+            <drop
+                css:theme=".portlet-left"
+            />
+        </rules>
+    </rules> 
+    
+    <rules css:if-content="#portal-column-two">
+        <rules css:if-content="#portal-column-one">
+            <replace
+                css:theme-children=".portlet-both #portal-column-content"
+    			css:content-children="#portal-column-content"
+            />
+            <replace
+            	css:theme=".portlet-both #portal-column-two"
+    			css:content="#portal-column-two"
+            />
+            <replace
+                css:theme=".portlet-both #portal-column-one"
+    			css:content="#portal-column-one"
+            />
+            <drop
+                css:theme=".portlet-right"
+            />
+            <drop
+                css:theme=".no-portlet"
+            />
+            <drop
+                css:theme=".portlet-left"
+            />
+        </rules>
+    </rules> 
+    
     <rules css:if-content="#slogan">
-        <replace
-            css:theme="#logo-slogan .slogan"
-            css:content="#slogan"
+        <prepend
+            css:theme=".site-slogan .slogan"
+            css:content-children="#slogan"
             method="raw"
         />
         <drop
             css:content="#slogan"
+        />
+    </rules>
+    
+    <rules css:if-content="#portal-logo">
+        <prepend
+            css:theme=".site-slogan .logo"
+            css:content-children="#portal-logo"
+            method="raw"
+        />
+        <drop
+            css:content="#portal-logo"
         />
     </rules>
 
