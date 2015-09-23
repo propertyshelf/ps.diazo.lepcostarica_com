@@ -64,11 +64,6 @@
     />
     
     <replace
-        css:theme-children="div#main"
-        css:content="div#portal-columns"
-    />
-    
-    <replace
         css:theme-children="div#footer-wrapper"
         css:content="div#portal-footer"
     />   

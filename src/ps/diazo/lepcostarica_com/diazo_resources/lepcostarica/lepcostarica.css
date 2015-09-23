@@ -1,3 +1,29 @@
+.template-manage-portlets .site-slogan {
+    display: none;
+}
+body .portlet-both  .site-slogan {
+    margin-left: 26%;
+    width: 47.75%;
+}
+body .template-manage-portlets .portlet-both  #portal-column-two {
+    top: 0;
+}
+body .portlet-both  #portal-column-two {
+    top: -291px;
+}
+body .portlet-right .site-slogan {
+    width: 70%;
+}
+body .portlet-right #portal-column-two {
+    top: -153px;
+}
+body .no-portlet .site-slogan {
+    width: 1080px;
+    margin: 0 auto;
+}
+body .portlet-left .site-slogan {
+    margin-left: 26%;
+}
 body .site-slogan {
     overflow: auto;
     position: relative;
@@ -1088,6 +1114,12 @@ body .form-row-beds input[type="radio"]{
     } 
 }
 @media (min-width: 980px) and (max-width:1199px){
+    body .portlet-right .site-slogan {
+        width: 70%;
+    }
+    body .no-portlet .site-slogan {
+        width: 870px;
+    }
     body .carousel-banner {
         display: block !important;
     }
@@ -1184,6 +1216,27 @@ body .form-row-beds input[type="radio"]{
     }
 }
 @media (min-width: 768px) and (max-width: 979px){
+    body .portlet-both  .site-slogan {
+        margin-left: 0;
+        overflow: visible;
+        width: auto;
+    }
+    body .portlet-both  #portal-column-two {
+        top: 0;
+    }
+    body .portlet-right .site-slogan {
+        width: auto;
+    }
+    body .portlet-right #portal-column-two {
+        top: 0;
+    }
+    body .portlet-left .site-slogan {
+        margin-left: 0;
+        overflow: visible;
+    }
+    body .no-portlet .site-slogan {
+        width: 680px;
+    }
     body .carousel-banner {
         display: block !important;
     }
@@ -1279,6 +1332,29 @@ body .form-row-beds input[type="radio"]{
     }
 }
 @media (min-width: 600px) and (max-width: 767px){
+    body .portlet-both  .site-slogan {
+        margin-left: 0;
+        overflow: visible;
+        width: auto;
+    }
+    body .portlet-both  #portal-column-two {
+        top: 0;
+    }
+    body .portlet-right .site-slogan {
+        width: auto;
+    }
+    body .portlet-right #portal-column-two {
+        top: 0;
+    }
+    body .portlet-left .site-slogan {
+        margin-left: 0;
+        overflow: visible;
+    }
+    body .no-portlet .site-slogan {
+        margin: 0;
+        padding: 0 1%;
+        width: 98%;
+    }
     #fullbgnav .navbar-inner .nav-collapse .nav .dropdown ul.dropdown-menu{ 
         position: static;
     }
@@ -1419,6 +1495,29 @@ body .form-row-beds input[type="radio"]{
     }
 }
 @media (min-width: 481px) and (max-width: 599px){
+    body .portlet-both  .site-slogan {
+        margin-left: 0;
+        overflow: visible;
+        width: auto;
+    }
+    body .portlet-both  #portal-column-two {
+        top: 0;
+    }
+    body .portlet-right .site-slogan {
+        width: auto;
+    }
+    body .portlet-right #portal-column-two {
+        top: 0;
+    }
+    body .portlet-left .site-slogan {
+        margin-left: 0;
+        overflow: visible;
+    }
+    body .no-portlet .site-slogan {
+        margin: 0;
+        padding: 0 1%;
+        width: 98%;
+    }
     #fullbgnav .navbar-inner .nav-collapse .nav .dropdown ul.dropdown-menu{ 
         position: static;
     }
@@ -1566,6 +1665,29 @@ body .form-row-beds input[type="radio"]{
     }
 }
 @media (min-width: 401px) and (max-width: 480px){
+    body .portlet-both  .site-slogan {
+        margin-left: 0;
+        overflow: visible;
+        width: auto;
+    }
+    body .portlet-both  #portal-column-two {
+        top: 0;
+    }
+    body .portlet-right .site-slogan {
+        width: auto;
+    }
+    body .portlet-right #portal-column-two {
+        top: 0;
+    }
+    body .portlet-left .site-slogan {
+        margin-left: 0;
+        overflow: visible;
+    }
+    body .no-portlet .site-slogan {
+        margin: 0;
+        padding: 0 1%;
+        width: 98%;
+    }
     #fullbgnav .navbar-inner .nav-collapse .nav .dropdown ul.dropdown-menu{ 
         position: static;
     }
@@ -1703,6 +1825,29 @@ body .form-row-beds input[type="radio"]{
     }
 }
 @media (min-width: 321px) and (max-width: 400px){
+    body .portlet-both  .site-slogan {
+        margin-left: 0;
+        overflow: visible;
+        width: auto;
+    }
+    body .portlet-both  #portal-column-two {
+        top: 0;
+    }
+    body .portlet-right .site-slogan {
+        width: auto;
+    }
+    body .portlet-right #portal-column-two {
+        top: 0;
+    }
+    body .portlet-left .site-slogan {
+        margin-left: 0;
+        overflow: visible;
+    }
+    body .no-portlet .site-slogan {
+        margin: 0;
+        padding: 0 1%;
+        width: 98%;
+    }
     #fullbgnav .navbar-inner .nav-collapse .nav .dropdown ul.dropdown-menu{ 
         position: static;
     }
@@ -1859,6 +2004,29 @@ body .form-row-beds input[type="radio"]{
     }
 }
 @media (min-width: 241px) and (max-width: 320px){
+    body .portlet-both  .site-slogan {
+        margin-left: 0;
+        overflow: visible;
+        width: auto;
+    }
+    body .portlet-both  #portal-column-two {
+        top: 0;
+    }
+    body .portlet-right .site-slogan {
+        width: auto;
+    }
+    body .portlet-right #portal-column-two {
+        top: 0;
+    }
+    body .portlet-left .site-slogan {
+        margin-left: 0;
+        overflow: visible;
+    }
+    body .no-portlet .site-slogan {
+        margin: 0;
+        padding: 0 1%;
+        width: 98%;
+    }
     a.pp_next {
         margin-right: 494px;
         width: 17% !important;
@@ -2003,6 +2171,29 @@ body .form-row-beds input[type="radio"]{
     }
 }
 @media (max-width: 240px){
+    body .portlet-both  .site-slogan {
+        margin-left: 0;
+        overflow: visible;
+        width: auto;
+    }
+    body .portlet-both  #portal-column-two {
+        top: 0;
+    }
+    body .portlet-right .site-slogan {
+        width: auto;
+    }
+    body .portlet-right #portal-column-two {
+        top: 0;
+    }
+    body .portlet-left .site-slogan {
+        margin-left: 0;
+        overflow: visible;
+    }
+    body .no-portlet .site-slogan {
+        margin: 0;
+        padding: 0 1%;
+        width: 98%;
+    }
     a.pp_next {
         margin-right: 50px;
         width: 43% !important;
