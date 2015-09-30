@@ -1,3 +1,66 @@
+@font-face {
+    font-family: "FultonsHand";
+    src: url(./font/FultonsHand_Regular.ttf) format("truetype");
+}
+/* Class for Content: START*/
+.improve-content{
+    overflow: auto;
+}
+.content-col-left-3 {
+    float: left;
+    margin-right: 15px;
+    width: 30%;
+}
+.content-col-right-3 {
+    float: right;
+    margin-left: 15px;
+    width: 30%;
+}
+.content-col-3 {
+    float: left;
+    width: 33%;
+}
+body #content-core .tileItem.small-column {
+    margin-top: 15px;
+}
+body #content-core .tileItem.small-column .tileBody{
+    padding-bottom: 10px;
+}
+/* Class for Content: END*/
+body #main .portletSearch .portletItem {
+    padding: 0;
+}
+body #main .portletSearch .portletFooter {
+    padding-left: 0;
+    padding-right: 0;
+}
+.portletSearch #livesearch1 {
+    margin: 0;
+}
+.portletItem #livesearch1 .LSBox .searchField {
+    float: left;
+    margin: 0;
+    width: 96%;
+}
+.portletItem #livesearch1 .LSBox .searchButton {
+    border-radius: 3px;
+    color: #808080;
+}
+body p,
+body li,
+body div{
+    font-size: 14px;    
+}
+body div .documentFirstHeading{
+    color: #4372F4;
+}
+body div .documentDescription {
+    color: #555;
+    padding: 0;
+}
+.slogan h2{
+    font-family: "FultonsHand", sans-serif;
+}
 .template-manage-portlets .site-slogan {
     display: none;
 }
@@ -32,7 +95,20 @@ body .site-slogan .logo{
     float: left;
 }
 body .site-slogan .slogan{
+    text-align: center;
     float: left;
+}
+body .site-slogan .slogan h2, 
+body .site-slogan .slogan p{
+    color: #4372f4;
+}
+body .site-slogan .slogan p{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 7px;
+}
+body .site-slogan .slogan h2{
+    font-size: 32px;
 }
 body .listing-summary figure .status_box.sale.Sold, 
 body .listing-summary figure .status_box.rent.Sold, 
@@ -778,8 +854,13 @@ table.listing tr.odd th{
     margin-bottom: 10px;
     line-height: normal;
 }
-#content .listing-summary .tileItem .tileHeadline a,.listing-summary .tileItem .tileHeadline a:hover{
-    color:#828282 !important;   
+body #content a:link, 
+body dl.portlet a:link {
+    border-bottom: medium none;
+}
+body #content .listing-summary .tileItem .tileHeadline a,
+body #content .listing-summary .tileItem .tileHeadline a:hover{
+    color:#4372F4;   
 }
 #content .listing-summary dt{
     width:30%;  
@@ -1665,6 +1746,15 @@ body .form-row-beds input[type="radio"]{
     }
 }
 @media (min-width: 401px) and (max-width: 480px){
+    .content-col-left-3 {
+        width: 100%;
+    }
+    .content-col-right-3 {
+        width: 100%;
+    }
+    .content-col-3 {
+        width: 100%;
+    }
     body .portlet-both  .site-slogan {
         margin-left: 0;
         overflow: visible;
