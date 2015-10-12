@@ -2,9 +2,115 @@
     font-family: "FultonsHand";
     src: url(./font/FultonsHand_Regular.ttf) format("truetype");
 }
+body dl.portletNavigationTree ul.navTree .navTreeCurrentItem {
+    border-left: medium none transparent;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    font-weight: bold;
+    margin: 0;
+}
+body #globalwrapper .portlet-static-vacation-faqs a span {
+    color: #4372f4;
+    font-size: 18px;
+}
+body #globalwrapper .portletStaticText span,
+body #globalwrapper .portletStaticText a{
+    color: #4372f4;
+}
+body #globalwrapper .portlet .portletHeader span {
+    color: #4372f4;
+    font-size: 22px;
+}
+body #globalwrapper .portletSearch .portletHeader a{
+    color: #4372f4;
+    font-size: 22px;
+}
+body #globalwrapper dl.portlet strong a{
+    color: #4372f4;
+}
+.portletNavigationTree .portletItem .navTreeItem a span{
+    color: #4372f4;
+}
+body .portletNavigationTree .portletItem li.navTreeItem{
+    padding: 0.25em 0;
+}
+.text_center_20 {
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+#content .tileItem.small-column {
+    position: relative;
+    margin-bottom: 20px;
+}
+.underline100 {
+    border-bottom: 1px solid #4372f4;
+    padding-bottom: 10px;
+}
+.underline100 strong, .underline100 b{
+    color: #4372f4;
+}
+body .portletNavigationTree dt.portletHeader {
+    padding: 0;
+}
+body .portletNavigationTree dt.portletHeader a{
+    color: #4372f4;
+    font-size: 22px;
+}
+.portletNavigationTree .portletItem ul.navTree li {
+    border-bottom:1px solid #ccc;
+}
+body #portal-colophon a {
+    color: #4372f4;
+    font-size: 14px;
+}
+body .portletSearch .portletFooter a.tile { 
+    font-size: 14px;
+    color: #4372f4;
+}
+#content .tileItem.small-column p.tileBody{
+
+}
+#content .tileItem.small-column p.tileFooter{
+
+}
 /* Class for Content: START*/
+body .improve_content h4 {
+    border-left: 5px solid;
+    color: #4372f4;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+body .improve_content a {
+    color: #4372f4;
+}
+.content-col-left-5 {
+    float: left;
+    margin-right: 1%;
+    width: 49%;
+}
+.content-col-right-5-detail {
+    float: right;
+    width: 49%;
+}
+.content-col-right-5 {
+    float: right;
+    width: 49%;
+}
+.content-col-right-6 {
+    float: right;
+    width: 66%;
+}
+.content-col-left-6 {
+    float: left;
+    width: 66%;
+}
 .improve-content{
     overflow: auto;
+}
+.width_100_float {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
 }
 .content-col-left-3 {
     float: left;
@@ -275,10 +381,6 @@ body #footer-wrapper #doormat-container p.footer_button a {
 #content .listing-summary section .row .value{
     left: 100px;
     position: absolute;
-}
-.template-listing-detail .formTabs #fieldsetlegend-infrastructure,
-.template-listing-detail .formTabs #fieldsetlegend-geographic-information{
-    display:none;
 }
 .listing-summary #search-form form .form-row-other .field span.option{
     width: auto !important;
@@ -1576,6 +1678,30 @@ body .form-row-beds input[type="radio"]{
     }
 }
 @media (min-width: 481px) and (max-width: 599px){
+    .vaction_rentals .right, .vaction_rentals .left{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .content-col-left-3 {
+        float: none;
+        width: auto;
+    }
+    .content-col-right-3 {
+        float: none;
+        width: auto;
+    }
+    .content-col-right-6 {
+        float: none;
+        width: 100%;
+    }
+    .content-col-left-6 {
+        float: none;
+        width: 100%;
+    }
+    .content-col-3 {
+        float: left;
+        width: auto;
+    }
     body .portlet-both  .site-slogan {
         margin-left: 0;
         overflow: visible;
@@ -1746,14 +1872,29 @@ body .form-row-beds input[type="radio"]{
     }
 }
 @media (min-width: 401px) and (max-width: 480px){
-    .content-col-left-3 {
+    .vaction_rentals .right, .vaction_rentals .left{
         width: 100%;
+        margin-top: 15px;
+    }
+    .content-col-left-3 {
+        float: none;
+        width: auto;
     }
     .content-col-right-3 {
+        float: none;
+        width: auto;
+    }
+    .content-col-right-6 {
+        float: none;
+        width: 100%;
+    }
+    .content-col-left-6 {
+        float: none;
         width: 100%;
     }
     .content-col-3 {
-        width: 100%;
+        float: left;
+        width: auto;
     }
     body .portlet-both  .site-slogan {
         margin-left: 0;
@@ -1915,6 +2056,30 @@ body .form-row-beds input[type="radio"]{
     }
 }
 @media (min-width: 321px) and (max-width: 400px){
+    .vaction_rentals .right, .vaction_rentals .left{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .content-col-left-3 {
+        float: none;
+        width: auto;
+    }
+    .content-col-right-3 {
+        float: none;
+        width: auto;
+    }
+    .content-col-right-6 {
+        float: none;
+        width: 100%;
+    }
+    .content-col-left-6 {
+        float: none;
+        width: 100%;
+    }
+    .content-col-3 {
+        float: left;
+        width: auto;
+    }
     body .portlet-both  .site-slogan {
         margin-left: 0;
         overflow: visible;
@@ -2094,6 +2259,26 @@ body .form-row-beds input[type="radio"]{
     }
 }
 @media (min-width: 241px) and (max-width: 320px){
+    .content-col-left-3 {
+        float: none;
+        width: auto;
+    }
+    .content-col-right-3 {
+        float: none;
+        width: auto;
+    }
+    .content-col-right-6 {
+        float: none;
+        width: 100%;
+    }
+    .content-col-left-6 {
+        float: none;
+        width: 100%;
+    }
+    .content-col-3 {
+        float: left;
+        width: auto;
+    }
     body .portlet-both  .site-slogan {
         margin-left: 0;
         overflow: visible;
