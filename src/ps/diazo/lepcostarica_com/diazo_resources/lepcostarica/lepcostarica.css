@@ -1081,8 +1081,8 @@ body #content .listing-summary .tileItem .tileHeadline a:hover{
 #content .listing.detail ul.formTabs li a#fieldsetlegend-financial-information{
     display:inline-block;   
 }
-#listing-details #fieldset-listing-details table.listing tbody tr,
-#listing-details #fieldset-financial-information table.listing tbody tr{
+#listing-details #fieldset-listing-details table.listing tbody tr {
+/* #listing-details #fieldset-financial-information table.listing tbody tr{ */
     display:none;   
 }
 #listing-details #fieldset-listing-details table.listing tbody tr.bedrooms,
