@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.8 (unreleased)
+0.8 (2015-12-23)
 ----------------
 
 - Add theme parameter to manifest file which is currently used in website.

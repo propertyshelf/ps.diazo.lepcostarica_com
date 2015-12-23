@@ -3,7 +3,7 @@
 
 from setuptools import setup, find_packages
 
-version = '0.1dev'
+version = '0.8'
 description = 'Propertyshelf LEPcostarica.com.'
 long_description = ('\n'.join([
     open('README.rst').read(),
