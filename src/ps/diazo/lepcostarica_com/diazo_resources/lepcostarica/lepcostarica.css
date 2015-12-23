@@ -553,6 +553,7 @@ div.pp_default .pp_content_container .pp_details{
 .less_button{
     margin:10px 0;
     color:#6d84b4;
+    cursor: pointer;
     font-weight:bold;
 }
 .more_button:hover,
