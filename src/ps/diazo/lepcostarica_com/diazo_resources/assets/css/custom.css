@@ -32,3 +32,13 @@ ul.configlets li {
 .portletQuickSearch #formfield-form-widgets-listing_type {
   padding-left: 0;
 }
+
+.span4 {
+    width: 310px;
+}
+
+@media (min-width: 1200px) {
+  .span4 {
+      width: 390px;
+  }
+}
