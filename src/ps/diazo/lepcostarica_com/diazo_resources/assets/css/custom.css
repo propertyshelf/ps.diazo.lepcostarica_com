@@ -28,3 +28,7 @@ dl.portlet li, div.portletStaticText li {
 ul.configlets li {
   list-style: none;
 }
+
+.portletQuickSearch #formfield-form-widgets-listing_type {
+  padding-left: 0;
+}
