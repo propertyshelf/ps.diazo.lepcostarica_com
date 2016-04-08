@@ -1,3 +1,7 @@
 #header-wrapper #header #header-inner .navbar .navbar-inner {
   height: 140px;
 }
+
+#content {
+  clear: both;
+}
