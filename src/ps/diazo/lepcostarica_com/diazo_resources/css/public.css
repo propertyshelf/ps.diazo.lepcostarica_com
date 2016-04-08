@@ -33,7 +33,6 @@
 }
 #portal-personaltools {
     float: right;
-    background: none transparent;
     position: relative;
     z-index: 3;
     top: 0;
@@ -654,7 +653,6 @@ div.field span.required:after {
     padding-top: 0.5em;
 }
 #portal-personaltools dd {
-    background: none transparent;
     padding-bottom: 0.5em;
 }
 #portal-personaltools dd a {

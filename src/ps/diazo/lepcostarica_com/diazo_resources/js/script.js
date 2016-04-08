@@ -17,5 +17,5 @@ $(document).ready(function () {
         })
     });
 
-    jQuery17('.carousel').carousel();
+    // jQuery17('.carousel').carousel();
 })

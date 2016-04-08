@@ -876,7 +876,10 @@ div.listingBar {
     bottom: 10px;
 }   
 ul#portal-languageselector,#portal-personaltools{
-    position:absolute;   
+    /* position:absolute;    */
+}
+.userrole-anonymous #portal-personaltools {
+    display: none;
 }
 #content .listing.detail ul.formTabs{
     background-color:#dddddd;
