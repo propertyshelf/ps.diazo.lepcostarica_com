@@ -137,7 +137,7 @@
         />
 
         <replace
-            css:content-children="#footer"
+            css:content-children="#portal-footer"
             css:theme-children="#footer"
         />
         
