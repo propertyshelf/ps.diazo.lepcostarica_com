@@ -42,7 +42,7 @@
 
         <before 
             css:content=".development__header"
-            css:theme="#content"
+            css:theme="#content-wrapper"
             method="raw"
         />     
            
@@ -199,7 +199,7 @@
  
         <rules css:if-content=".carousel" if="$slider_fullscreen = 'true'">
 			<before
-                css:theme="#content.container"
+                css:theme="#content-wrapper.container"
                 css:content=".carousel"
                 method="raw"
 			/>
