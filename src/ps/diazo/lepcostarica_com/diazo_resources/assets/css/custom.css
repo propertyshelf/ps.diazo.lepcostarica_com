@@ -20,3 +20,11 @@
 .doormatSection {
   padding: 1em;
 }
+
+dl.portlet li, div.portletStaticText li {
+  display: list-item !important;
+}
+
+ul.configlets li {
+  list-style: none;
+}
