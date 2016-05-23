@@ -4,7 +4,7 @@ Changelog
 0.9 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Use realia theme.
 
 
 0.8 (2015-12-23)

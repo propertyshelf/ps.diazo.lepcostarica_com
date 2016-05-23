@@ -1,0 +1,44 @@
+#header-wrapper #header #header-inner .navbar .navbar-inner {
+  height: 140px;
+}
+
+#content {
+  clear: both;
+}
+#content ul,
+.portletStaticText ul,
+#footer-wrapper ul {
+    margin-left: 2em !important;
+}
+
+#footer-wrapper #footer-top h2,
+#footer-wrapper #footer-top h3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.doormatSection {
+  padding: 1em;
+}
+
+dl.portlet li, div.portletStaticText li {
+  display: list-item !important;
+}
+
+ul.configlets li {
+  list-style: none;
+}
+
+.portletQuickSearch #formfield-form-widgets-listing_type {
+  padding-left: 0;
+}
+
+.span4 {
+    width: 310px;
+}
+
+@media (min-width: 1200px) {
+  .span4 {
+      width: 390px;
+  }
+}
