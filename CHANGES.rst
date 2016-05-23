@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.9 (unreleased)
+0.9 (2016-05-23)
 ----------------
 
 - Use realia theme.
