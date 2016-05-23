@@ -18,4 +18,9 @@
     </after>
   </rules>
 
+  <!-- CUSWEBDEV-684: Adjust listing details to show financial/legal tab as rates. -->
+  <replace css:content="dt#fieldsetlegend-financial-information">
+    <dt><xsl:copy-of select="attribute::*" />Rates</dt>
+  </replace>
+
 </rules>
