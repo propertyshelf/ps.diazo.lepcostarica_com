@@ -503,6 +503,7 @@ jQuery(document).ready(function($) {
   isdevelopment = $('.development-summary').length;
   islistingsummery = $('.listing-summary').length;
 
+  var width_indicator = $('#maincontent').attr('class');
   if (islistingsummery > 0 && isdevelopment < 1 ) {
     $(".listing-summary .tileItem").addClass('property ' + width_indicator).wrapInner('<div class="row propertyrow" />');
     $(".listing-summary .property .row figure").addClass('image').wrapInner('<div class="content" />');
@@ -561,7 +562,6 @@ jQuery(document).ready(function($) {
     enhance_filterportlet();
   }
 
-  var width_indicator = $('#maincontent').attr('class');
   switch(width_indicator) {
     case 'span12':
       //no portlet
