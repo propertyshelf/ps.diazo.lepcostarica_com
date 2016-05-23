@@ -202,46 +202,63 @@ function balance_item(item0, item1, item2) {
 function map_listing_data(obj) {
   //use data input to give back a easy to access array for mapping
   dict = [];
-  counter = jQuery(obj).children('dd').length;
-  if (counter < 10) {
-    dict.type = 'land';
+  new_structure = jQuery(obj).children('div').length > 0;
+  if (new_structure) {
+    if (obj.find('.listing__beds_baths dd').length > 0) {
+      dict.type = 'house';
+    } else {
+      dict.type = 'land';
+    }
+
+    dict.price = obj.find('.listing__price dd').html();
+    dict.listingtype = obj.find('.listing__listing_type dd').html();
+    dict.propertytype = obj.find('.listing__object_type dd').html();
+    dict.location = obj.find('.listing__location dd').html();
+    dict.area = obj.find('.listing__lot_size dd').html();
+    dict.bedbath = obj.find('.listing__beds_baths dd').html();
+    dict.locationtype = obj.find('.listing__location_type dd').html();
   } else {
-    dict.type = 'house';
-  }
+    counter = jQuery(obj).children('dd').length;
+    if (counter < 10) {
+      dict.type = 'land';
+    } else {
+      dict.type = 'house';
+    }
 
-  try {
-    dict.price = obj[0].children[1].innerHTML;
-  } catch(err) {
-    dict.price = '';
-  }
+    try {
+      dict.price = obj[0].children[1].innerHTML;
+    } catch(err) {
+      dict.price = '';
+    }
 
-  try {
-    dict.listingtype = obj[0].children[5].innerHTML;
-  } catch(err) {
-    dict.listingtype = '';
-  }
+    try {
+      dict.listingtype = obj[0].children[5].innerHTML;
+    } catch(err) {
+      dict.listingtype = '';
+    }
 
-  try {
-    dict.propertytype = obj[0].children[9].innerHTML;
-  } catch(err) {
-    dict.propertytype = '';
-  }
+    try {
+      dict.propertytype = obj[0].children[9].innerHTML;
+    } catch(err) {
+      dict.propertytype = '';
+    }
 
-  if (dict.type == "house") {
-    dict.location = obj[0].children[13].innerHTML;
-    dict.area = obj[0].children[19].innerHTML;
-    dict.bedbath = obj[0].children[11].innerHTML;
-    dict.locationtype = obj[0].children[15].innerHTML;
-  } else {
-    // land listings have different indexes
-    dict.location = obj[0].children[11].innerHTML;
-    dict.area = obj[0].children[17].innerHTML;
-    dict.bedbath = "";
-    dict.locationtype = obj[0].children[13].innerHTML;
-  }
+    if (dict.type == "house") {
+      dict.location = obj[0].children[13].innerHTML;
+      dict.area = obj[0].children[19].innerHTML;
+      dict.bedbath = obj[0].children[11].innerHTML;
+      dict.locationtype = obj[0].children[15].innerHTML;
+    } else {
+      // land listings have different indexes
+      dict.location = obj[0].children[11].innerHTML;
+      dict.area = obj[0].children[17].innerHTML;
+      dict.bedbath = "";
+      dict.locationtype = obj[0].children[13].innerHTML;
+    }
 
-  // parse location
-  dict.location = parse_location(dict.location);
+    // parse location
+    dict.location = parse_location(dict.location);
+  }
   return dict;
 }
 
