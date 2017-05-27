@@ -14,7 +14,6 @@ from plone.testing import (
     Layer,
     z2,
 )
-from zope.configuration import xmlconfig
 
 
 class PsDiazoLepcostaricaComLayer(PloneSandboxLayer):
@@ -25,11 +24,7 @@ class PsDiazoLepcostaricaComLayer(PloneSandboxLayer):
         """Set up Zope for testing."""
         # Load ZCML
         import ps.diazo.lepcostarica_com
-        xmlconfig.file(
-            'configure.zcml',
-            ps.diazo.lepcostarica_com,
-            context=configurationContext
-        )
+        self.loadZCML(package=ps.diazo.lepcostarica_com)
 
     def setUpPloneSite(self, portal):
         applyProfile(portal, 'ps.diazo.lepcostarica_com:default')
