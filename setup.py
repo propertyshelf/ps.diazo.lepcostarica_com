@@ -14,6 +14,7 @@ install_requires = [
     'setuptools',
     # -*- Extra requirements: -*-
     'plone.api',
+    'ps.diazo.realia',
     'z3c.jbot',
 ]
 
